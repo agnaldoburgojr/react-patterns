@@ -1,4 +1,62 @@
-.App {
-    font-family: sans-serif;
-    text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime:700|Inria+Serif&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-bottom: 50px;
+  font-family: 'Courier Prime', monospace;
+  text-align: center;
+  font-size: 48px;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 50px;
+  padding: 12px 8px;
+  font-family: 'Inria Serif', serif;
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-family: 'Inria Serif', serif;
+  line-height: 1.8;
+  font-size: 20px;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+  transition: all 1s;
+}
+
+.none {
+  background-color: '#fff';
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+  transition: all 1s;
+}
+
+.content {
+  width: 300px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
 }

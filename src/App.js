@@ -1,7 +1,10 @@
 import React from 'react';
+import './app.css';
+
+import StyledComponent from './stylesComponent/ImportComponent';
 
 function App() {
-  return <h1>Hello</h1>;
+  return <StyledComponent />;
 }
 
 export default App;
